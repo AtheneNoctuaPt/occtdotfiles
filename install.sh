@@ -30,3 +30,4 @@ sudo apt install -y nodejs
 sudo sysctl kernel.perf_event_paranoid=-1
 sudo sysctl kernel.yama.ptrace_scope=0
 git config --global user.email "dkulikov@opencascade.com"
+export DISPLAY=":90."
