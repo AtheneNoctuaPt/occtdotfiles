@@ -15,6 +15,16 @@ sudo apt-get install -y valgrind
 # clang and lldb (debugger)
 sudo apt install -y clang lldb
  
+sudo mkdir /occt_build
+sudo mkdir /occt_install
+sudo chmod a+w /occt_build
+sudo chmod a+w /occt_install
+ 
+sudo mkdir /prod_build
+sudo mkdir /prod_install
+sudo chmod a+w /prod_build
+sudo chmod a+w /prod_install
+ 
 sudo apt install -y nodejs
  
 sudo sysctl kernel.perf_event_paranoid=-1
